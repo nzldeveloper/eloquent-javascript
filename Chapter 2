@@ -1,0 +1,18 @@
+*Looping a Triangle*
+
+    Write a loop that makes seven calls to console.log to output the following triangle:
+
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+
+   Solution: 
+        var sign = "#"
+        for (var count = 0; count <= 6; count++) {
+ 	    console.log (sign); 
+  	    sign = sign + "#"; 
+    }
